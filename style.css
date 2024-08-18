@@ -1,0 +1,45 @@
+
+        body{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            height: 90vh;
+            background-color:rgb(255, 255, 255);
+        }
+        .box {
+            width: 200px;
+            margin: auto;
+            border: none;
+            padding: 34px;
+            box-shadow: 0 10px 30px;
+            border-radius: 20px;
+            background: linear-gradient(rgb(116, 116, 119), rgb(87, 87, 87));
+        }
+
+        input[type="text"] {
+            width: 90%;
+            height: 40px;
+            text-align: right;
+            font-size: 20px;
+        }
+
+        input[type="button"] {
+            width: 40px;
+            height: 40px;
+            padding: 10px;
+            font-size: 20px;
+            margin: 5px;
+            border: 10px;
+            border: none;
+            border-radius: 9px;
+            font-weight: bolder;
+        }
+        input[type="button"]:hover{
+            background-color: black;
+            color: white;
+        }
+
+        table {
+            margin: auto;
+        }
+ 
